@@ -1,0 +1,26 @@
+/* .modalDiv {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background-color: rgba(91, 112, 131, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  width: 350px;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}

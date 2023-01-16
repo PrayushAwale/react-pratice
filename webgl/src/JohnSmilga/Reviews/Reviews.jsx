@@ -21,6 +21,7 @@ const Reviews = () => {
     }
     setIndex((prev) => {
       return (prev = prev + 1);
+      console.log("SAd");
     });
   };
   return (

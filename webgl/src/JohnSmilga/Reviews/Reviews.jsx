@@ -16,11 +16,13 @@ const Reviews = () => {
     });
   };
   const rightSlide = () => {
+    f;
     if (index === 4) {
       return;
     }
     setIndex((prev) => {
       return (prev = prev + 1);
+      console.log("SAd");
     });
   };
   return (

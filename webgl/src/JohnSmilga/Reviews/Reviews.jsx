@@ -16,7 +16,6 @@ const Reviews = () => {
     });
   };
   const rightSlide = () => {
-    f;
     if (index === 4) {
       return;
     }

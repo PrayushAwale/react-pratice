@@ -6,14 +6,20 @@ import "./App.css";
 // import Home from "./Home";
 // import Birthday from "./JohnSmilga/Birthday/Birthday";
 // import Create from "./JohnSmilga/Birthday/Create";
-import AppMain from "./JohnSmilga/Birthday/Tourist/AppMain";
-import HomeQuestion from "./JohnSmilga/Questions/HomeQuestion";
-import HomeReview from "./JohnSmilga/Reviews/HomeReview";
-import Reviews from "./JohnSmilga/Reviews/Reviews";
+// import AppMain from "./JohnSmilga/Birthday/Tourist/AppMain";
+// import Question from "./JohnSmilga/Questions/Question";
+// import Reviews from "./JohnSmilga/Reviews/Reviews";
+// import Slider from "./Slider/Slider";
 // import Data from "./FanShop/Data";
 // import Context from "./JohnSmilga/Context";
 // import Form from "./JohnSmilga/Form";
-import Tourist from "./JohnSmilga/Tourist/Tourist";
+// import Tourist from "./JohnSmilga/Tourist/Tourist";
+import FoodBud from "./JohnSmilga/FoodBud/FoodBud";
+import HomeQuestion from "./JohnSmilga/Questions/HomeQuestion";
+import HomeReview from "./JohnSmilga/Reviews/HomeReview";
+import Tab from "./JohnSmilga/Tabs.jsx/Tab";
+import Navbar from "./JohnSmilga/Navbar/Navbar";
+import Hero from "./JohnSmilga/Submenu/Hero";
 function App() {
   // const location = useLocation();
   // const background = location.state && location.state.background;
@@ -35,8 +41,13 @@ function App() {
       {/* <Data /> */}
       {/* <Form /> */}
       {/* <Tourist /> */}
-      {/* <HomeQuestion /> */}
+      <Navbar />
+      <Hero />
+      <HomeQuestion />
       <HomeReview />
+      <Tab />
+      {/* <Slider /> */}
+      <FoodBud />
       {/* <Birthday /> */}
     </div>
   );
